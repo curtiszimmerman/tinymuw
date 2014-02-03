@@ -1,0 +1,119 @@
+/* -------------------- CSS Document from tinyStyle.css -------------------- */
+
+    /* These are the rules for ALL buttons in tinyMuw. */
+.buttonFont {
+	background:#B5B5B5;
+	border: 1px outset #FFFFFF;
+	font-size:10px;
+	font-family:verdana;
+	color:#444444;
+	width: 112px;
+}
+
+    /* Likewise, these are the rules for ALL textfields. */
+.inputField {
+	background-color:#e5e5e5;
+}
+
+    /* Rules for our mainpage news entry box. */
+.newsBox {
+	border: 1px dotted #797979;
+	padding: 4px;
+    width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+    /* How the Posted By and Posted On display of */
+	/* username and posting times will look for our */
+	/* news/quickchat. */
+.comment {
+	color:#8E8E8E;
+}
+
+    /* Just a horizontal rule, like the old <hr> tag. */
+.borderTop {
+    border-top: 1px solid #797979;
+}
+
+    /* Same as above, but dotted instead. */
+.dotborderTop {
+    border-top: 1px dotted #797979;
+}
+
+    /* Tiny text for tinyMuw! */
+.poweredBy {
+    font-family: verdana;
+	font-size: 9px;
+	color: #000000;
+}
+
+    /* FORTH, HIDEOUSLY LOUD, RED, ERROR TEXT! */
+.errorText {
+	color: #FF0000;
+}
+
+    /* Comfort thyself in blue text! */
+.blueText {
+	color: #0000FF;
+}
+
+    /* A simple margin we apply to the register page. */
+.registerMargin {
+	margin: 0px 0px 0px 50px;
+}
+
+
+    /* OK. The next three rules are so that when we have */
+	/* multiple buttons that we want to display, CSS will */
+	/* tell the browsers to do it right. Don't fuck with */
+	/* these rules or it won't display right! */
+.buttons {
+	clear: both;
+	height: 15px;
+    width: 225px;
+}
+
+.buttonName {
+    vertical-align: top;
+	margin-top: 0px;
+	padding: 0px;
+    width: 50%;
+	float: left;
+}
+
+.buttonEntry {
+    margin-top: 0px;
+	padding: 0px;
+	width: 50%;
+	float: right;
+}
+    /* End button-align rules. */
+
+    /* OK. The next three rules are so that when we have */
+	/* multiple fields that we want to display (like in a */
+	/* form), CSS will tell the browsers to do it right. */
+	/* Don't fuck with these rules or it won't display right! */
+.fields {
+	clear: both;
+	height: 15px;
+    width: 500px;
+}
+
+.fieldName {
+	vertical-align: top;
+	margin-top: 0px;
+	padding: 0px;
+    width: 50%;
+	float: left;
+}
+
+.fieldEntry {
+	margin-top: 0px;
+	padding: 0px;
+	width: 50%;
+	float: right;
+}
+    /* End field/CSS form rules! */
+
+/* -------------------- End tinyStyle.css input -------------------- */
